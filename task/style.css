@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* nav bar */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    background-color: white;
+    height: 30px;
+    padding-left: 20px;
+}
+.navbar{
+    background-color: blue ;
+    padding: 0 !important;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+/*---banner section--*/
+
+#banner{
+    background-image: blue ;
+    color: rgb(15, 12, 12);
+    padding-top: 5%;
+
+}
+.promo-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.button{
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    position: relative;
+    
+}
+.watch{
+    width: 500px;  
+    top: 30%;
+    left: 55%;
+    position: absolute;
+    
+}
+.jem{
+    width: 50%;
+    height: 120vh;
+    background-color: rgb(60, 60, 228);
+    clip-path: polygon(45% 100%, 100% 100%, 100% 0, 0 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*  Services section */
+
+#services{
+    padding:  300px 0;
+   
+}
+
+.services{
+    padding: 20px;
+   
+}
+.service-img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    height: auto;
+}
+.main{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.para{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.title::before{
+    content: '';
+    background-color: rgb(77, 17, 197);
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);   
+}
+
+/*--------About us-----*/
+#about-us{
+    height: 100vh;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: -50vh;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px ;
+   
+}
+.img2{
+    width: 100vh;
+    height: 80vh;
+}
+.count{
+    padding: 10px;
+    display: flex;
+    align-items: center;   
+    margin-top: -20vh;
+   
+}
+.num{
+    color: blue;
+}
+.course{
+    font-size: 20px;
+    
+}
+.about1{
+    display: flex;
+    gap: 15px;
+}
+
+/*-------------OUR NEWS-------*/
+
+#news{
+    margin: 100px 0;
+}
+.our{
+    display: flex;
+    
+}
+.new{
+    width: 50px;
+    height: 50px;
+    
+}
+.imgn{
+    height: 40vh;
+    width: 40vh;
+    margin: 0 5px;
+}
+ 
+
